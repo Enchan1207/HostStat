@@ -1,0 +1,19 @@
+/*
+ * 共通CSS
+*/
+
+/* 変数管理CSSをインポート */
+@import url("variable.css");
+
+
+body{
+    width: 100%;
+    min-height:100vh;
+    margin: 0;
+    padding: 10px;
+
+    box-sizing: border-box;
+    color: var(--main-text);
+    background: var(--main-bg);
+}
+
